@@ -10,5 +10,5 @@ func WebHookHandler(w http.ResponseWriter, r *http.Request) {
 
 	name := r.Form["user_name"]
 
-	w.Write([]byte(fmt.Sprintf(`{"text":"Hello, %s"}`, name)))
+	w.Write([]byte(fmt.Sprintf(`{"text":"Hello, %s"}`, name[0])))
 }
