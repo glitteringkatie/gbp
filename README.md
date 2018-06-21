@@ -1,5 +1,9 @@
-it begins
+# Getting Started:
+
+## OSX:
+* brew install golang
 
 ```sh
-$ go run *.go
+$ go build
+$ ./goodbois
 ```
