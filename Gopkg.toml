@@ -32,3 +32,8 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[metadata.heroku]
+  root-package = "github.com/kimonos-vapes/goodbois"
+  go-version = "go1.10.3"
+  ensure = "false"
