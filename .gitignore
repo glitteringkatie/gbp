@@ -1,1 +1,9 @@
+# local dev config file
+.env
+
+# temporary dump of database schema
+dbexport.pgsql
+
+# binaries
 goodbois
+goodbois_deux
