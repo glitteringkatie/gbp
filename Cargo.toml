@@ -1,0 +1,14 @@
+[package]
+name = "gbp"
+version = "0.1.0"
+authors = ["Jonah George <jonah@jonahgeorge.com>"]
+edition = "2018"
+
+[dependencies]
+tower-web = "*"
+tokio = "*"
+serde = "*"
+redis = "0.9.0"
+url = "*"
+regex = "1"
+lazy_static = "*"
