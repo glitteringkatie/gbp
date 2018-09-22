@@ -46,7 +46,7 @@ struct GbpResponse {
 }
 
 const HELP_TEXT: &'static str = r#"
-Invalid command, dude. Try one of these:
+Invalid command, my dude. Try one of these:
 
 /gbp leaderboard
 /gbp give @jonah the goodest boi
